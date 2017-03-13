@@ -11,7 +11,6 @@ import java.io.IOException;
 public class WriteDataToFile {
 
     private FileWriter fileWriter;
-    private int i = 0;
 
     public void writeGroupToFile(Integer group) throws IOException {
         fileWriter = new FileWriter("./out.txt", true);

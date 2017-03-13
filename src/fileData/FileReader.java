@@ -14,7 +14,6 @@ import java.util.Date;
 public class FileReader {
 
     private SortFileData sortFileData = new SortFileData();
-    private int i = 1;
 
     public void readFileData() throws IOException {
         String line = "";
